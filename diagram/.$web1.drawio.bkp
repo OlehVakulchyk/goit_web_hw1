@@ -1,0 +1,60 @@
+<mxfile host="Electron" modified="2023-07-16T16:48:36.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="sBq1vK6nCRIw_ZRe1Jua" version="21.6.1" type="device" pages="2">
+  <diagram name="Сторінка-1" id="AxiPt45qJVt2WfJqGVkG">
+    <mxGraphModel dx="1063" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LnaQQmRgP3tKI7qRfTg0-1" target="LnaQQmRgP3tKI7qRfTg0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-1" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;AddressBook&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="210" height="80" as="geometry">
+            <mxRectangle x="370" y="240" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LnaQQmRgP3tKI7qRfTg0-1">
+          <mxGeometry y="30" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-5" value="+&amp;nbsp;add_record&lt;span style=&quot;background-color: initial;&quot;&gt;(record: Record): None&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LnaQQmRgP3tKI7qRfTg0-1">
+          <mxGeometry y="30" width="210" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-4" value="+&amp;nbsp;iterator&lt;span style=&quot;background-color: initial;&quot;&gt;(): type&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LnaQQmRgP3tKI7qRfTg0-1">
+          <mxGeometry y="54" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;UserDict&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="338.75" y="150" width="192.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=1.177;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LnaQQmRgP3tKI7qRfTg0-12" target="LnaQQmRgP3tKI7qRfTg0-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="380" />
+              <mxPoint x="438" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-12" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;Record&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="210" height="90" as="geometry">
+            <mxRectangle x="330" y="400" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-13" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LnaQQmRgP3tKI7qRfTg0-12">
+          <mxGeometry y="30" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LnaQQmRgP3tKI7qRfTg0-12">
+          <mxGeometry y="56" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LnaQQmRgP3tKI7qRfTg0-15" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="LnaQQmRgP3tKI7qRfTg0-12">
+          <mxGeometry y="64" width="210" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="21sl1yfsvxROIddCYUkQ" name="Сторінка-2">
+    <mxGraphModel dx="1276" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
